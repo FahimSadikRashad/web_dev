@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;1,100;1,200&family=Noto+Serif&family=Noto+Serif+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;1,100;1,200&family=Noto+Sans:wght@200&family=Noto+Serif&family=Noto+Serif+Display:wght@300&display=swap');
+
+
+:root {
+    --main-bg-color: brown;
+    /* font-family: 'Noto Sans Display'; */
+    --font1: 'Noto Sans Display';
+    --font2: 'Noto Serif', serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    /* font-family: 'Noto Sans Display'; */
+    padding: 3px 9px;
+    border: 3px solid black;
+    border-radius: 8px;
+    /* margin: 0 13px; */
+    font-family: var(--font1);
+    cursor: pointer;
+}
+
+.form-input {
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 0 13px;
+    font-family: var(--font1);
+
+}
+
+.nav-left ul li:hover::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-left ul li:hover::after {
+    width: 100%;
+}
+
+.btn:hover {
+    content: '';
+    color: white;
+    /* width: 0%; */
+    /* height: 2px; */
+    background: #f44336;
+    /* display: block; */
+    /* margin: auto; */
+    transition: 0.3s ease-in-out;
+
+}

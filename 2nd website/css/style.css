@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    height: 74px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+}
+
+.nav-left ul li {
+    list-style: none;
+    color: black;
+    margin: 0 15px;
+    font-family: (--font1);
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left span a img {
+    width: 150px;
+    margin: 0 -20px;
+}
+
+.nav-left ul {
+    display: flex;
+    /* text-decoration: none; */
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+
+
+/* check this */
+.nav-right {}
+
+.content {
+    height: 395px;
+    margin-top: 30px;
+    display: flex;
+    /* height: 56px; */
+    padding: 9px;
+    /* background-color: rgb(234, 234, 238); */
+    position: relative;
+    /* background-image: url('../img/background.jpg'); */
+
+}
+
+.content::after {
+    content: '';
+    background-image: url('../img/background.jpg');
+    position: absolute;
+    width: 100%;
+    /* margin-right: 23px; */
+    height: inherit;
+    opacity: 0.24;
+    border-radius: 13px;
+}
+
+.content-left {
+    /* width: 50%; */
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+}
+
+.content-right {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 285px;
+    border: 5px solid black;
+    border-radius: 200px;
+}
+
+.footer {
+    display: flex;
+    height: 45px;
+    background-color: #f44336;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.footer a {
+    color: white;
+}
+
+.home-articles {
+    /* height: 455px; */
+    /* background-color: blue; */
+    padding-top: 20px;
+    margin-top: 40px;
+
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 200px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
